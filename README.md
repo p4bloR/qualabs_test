@@ -1,6 +1,6 @@
 # Overview:
 
-The system consists of four modules and five classes. The ObjectCreator can create instances of a desired class using a class method. JsonObjCreator inherits this capability and is able to receive and process json data in order to create the desired objects. After finishing the creation process, the class returns a report summarizing the successes or errors involved in the process. With the users created, the SetCover class is used to select the minimum number of users necessary to cover all the provider options. 
+The system consists of four modules and five classes. The ObjectCreator can create instances of a desired class using a class method. JsonObjCreator inherits this capability and is able to receive and process json data in order to create the desired objects. After finishing the creation process, the class returns a Report object summarizing the successes or errors involved in the process. With the users created, the SetCover class is used to select the minimum number of users necessary to cover all the provider options. 
 
 # In order to run solution
 
