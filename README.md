@@ -18,7 +18,7 @@ Steps:
 ## User
 
 The user class has 4 properties: id, name, provider and filepath.
-I included the id propery because it's most likely necessary in any real life scneario, but I set it to None leaving the door open for future implementation.
+I included the id propery because it's most likely necessary in any real life scenario, but I set it to None leaving the door open for future implementation.
 The name, provider and filepath properties can be assigned when creating and instance, the latter having a default value of None. The idea is that if a User instance is created from data contained in a file, the filepath can be included in the User object. If that is not the case, said property can simply be ignored.
 
 ## Report
@@ -60,7 +60,7 @@ User 1
 
 **create_object_from_list()**
 
-Receives accepts a json li containing a list of dictionaries with record data.
+Receives accepts a json list containing a list of dictionaries with record data.
 
 Usage example:
 
